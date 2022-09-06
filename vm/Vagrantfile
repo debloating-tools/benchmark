@@ -1,0 +1,37 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+
+#  config.vm.synced_folder ".", "/vagrant", type: "virtualbox"
+
+  config.vm.define "chisel" do |chisel_config|
+      chisel_config.vm.host_name = "chisel"
+      chisel_config.vm.box = "bento/ubuntu-18.04"
+      chisel_config.vm.network "private_network", ip:"192.168.100.10"
+      chisel_config.disksize.size = '128GB'
+      chisel_config.vm.provider :virtualbox do |vb|
+          vb.customize ["modifyvm", :id, "--memory", "6144"]
+          vb.customize ["modifyvm", :id, "--cpus", "2"]
+      end
+  end
+
+  config.vm.define "occam" do |occam_config|
+      occam_config.vm.host_name = "occam"
+      occam_config.vm.box = "bento/ubuntu-18.04"
+      occam_config.vm.network "private_network", ip:"192.168.100.11"
+      occam_config.disksize.size = '128GB'
+      occam_config.vm.provider :virtualbox do |vb|
+          vb.customize ["modifyvm", :id, "--memory", "6144"]
+          vb.customize ["modifyvm", :id, "--cpus", "2"]
+      end
+  end
+#  config.vm.define "measurement-box" do |db_config|
+#      db_config.vm.host_name = "db"
+#      db_config.vm.network "private_network", ip:"192.168.100.20"
+#      db_config.vm.provider :virtualbox do |vb|
+#          vb.customize ["modifyvm", :id, "--memory", "1024"]
+#          vb.customize ["modifyvm", :id, "--cpus", "2"]
+#      end
+#  end
+end

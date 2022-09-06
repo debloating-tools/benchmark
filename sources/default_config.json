@@ -1,0 +1,66 @@
+{
+	"OUTPUT_DIR": "binaries",
+	"CHISEL": {
+		"Oracle": {
+			"url": "",
+			"file": ""
+		},
+		"Program": {
+			"tarball_url": "",
+			"git_repo_url": "",
+			"file": ""
+		},
+		"Compilation": {
+			"compiler": "",
+			"flags": ""
+		},
+		"BSI": {
+			"enable": "False",
+			"Init_cmds": "",
+			"Make_cmd": "",
+			"binary_output_loc": ""
+		},
+		"Chisel_flags": "",
+		"Dependencies": []
+	},
+	"PWISE": {
+		"program1": {
+			"tarballUrl": "",
+			"extractedDir": "",
+			"compiledBinaryInsideExtractedDir": "",
+			"configure": {
+				"CC": "",
+				"CFLAGS": [
+					"",
+					""
+				]
+			}
+		}
+	},
+	"OCCAM": {
+		"target-apps": {
+			"program1": {
+				"repo": "",
+				"args": {
+					"arg1": {
+						"static_args": [
+							""
+						],
+						"dynamic_args": 0
+					}
+				}
+			}
+		},
+		"configuration-priming": 0
+	},
+	"RAZOR": {
+		"target-apps": {
+			"program1": {
+				"repo": "",
+				"args": [],
+				"train": [],
+				"trainfiles": ""
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+cached-property==1.5.2
+certifi==2020.12.5
+chardet==4.0.0
+click==7.1.2
+colorama==0.4.4
+coloredlogs==15.0
+docker==4.4.1
+humanfriendly==9.1
+idna==2.10
+requests==2.25.1
+six==1.15.0
+tabulate==0.8.7
+urllib3==1.26.2
+websocket-client==0.57.0
+capstone==4.0.2
+ropgadget==6.6
