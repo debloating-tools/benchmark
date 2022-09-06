@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Copyright (c) 2022 SRI International All rights reserved.
+# Use of this source code is governed by a BSD-style
+# license that can be found in the LICENSE file.
+
 PROJECT_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 docker_img_path="${PROJECT_PATH}/binaries/piece-wise.docker"
 
