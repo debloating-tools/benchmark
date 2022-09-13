@@ -1,4 +1,4 @@
-# ProDeBench
+# Benchmark for Comparing Debloating Tools
 
 A unified framework for debloating sources and binaries.
 
@@ -98,3 +98,7 @@ We execute commands in the containers with `exec` command.
 To interact with the container we can use same technique
 
     docker exec ... -it bash
+
+---
+
+This material is based upon work supported by the National Science Foundation (NSF) under Grant ACI-1440800 and the Office of Naval Research (ONR) under Contracts N68335-17-C-0558 and N00014-18-1-2660. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of NSF or ONR.
