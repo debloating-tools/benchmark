@@ -62,26 +62,26 @@ Stop and **remove** the container
 ### OCCAM
 
 - __Paper__: Automated Software Winnowing
-- __Published__: SAC 2015
-- __Code__: <https://github.com/ashish-gehani/OCCAM>
+- __Published__: ACM SAC 2015
+- __Code__: <https://github.com/SRI-CSL/OCCAM>
 
 ### Piecewise
 
 - __Paper__: Debloating Software through Piece-Wise Compilation and Loading
-- __Published__: USENIX Security 18
+- __Published__: USENIX Security 2018
 - __Code__: <https://github.com/bingseclab/piecewise>
 
 ### Chisel
 
 - __Paper__: Effective Program Debloating via Reinforcement Learning.
-- __Published__: CCS 2018
+- __Published__: ACM CCS 2018
 - __Code__: <https://github.com/aspire-project/chisel>
 - __Home__: <https://chisel.cis.upenn.edu/>
 
 ### Razor
 
 - __Paper__: RAZOR: A Framework for Post-deployment Software Debloating
-- __Published__: USENIX Security 19
+- __Published__: USENIX Security 2019
 - __Code__: <https://github.com/cxreet/razor>
 - __Wiki__: <https://github.com/cxreet/razor/wiki>
 
